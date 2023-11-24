@@ -39,3 +39,26 @@ pip install -r requirements.txt
 ```
 jupyter notebook
 ```
+
+
+# Use the Custom ChatGPT
+
+## Use the Custom ChatGPT without memory
+
+1. Open the file `basic_langchain_chatgpt.ipynb` inside of the Jupyter Notebook
+2. Press play
+3. Enter the desired prompt
+
+
+## Use the Custom ChatGPT with memory
+
+1. Open the file `langchain_chatgpt_with_memory.ipynb` inside of the Jupyter Notebook
+2. Press play
+3. Enter the desired prompt. Note that the chatbot will remember the context of previous questions.
+
+
+## Use the Custom ChatGPT with memory and sessions
+
+1. Open the file `langchain_chatgpt_saving_sessions.ipynb` inside of the Jupyter Notebook
+2. Press play
+3. Enter the desired prompt. Note that the chatbot will remember the context of previous questions and save the chat history in the `chatbot_history.json` file.
