@@ -2,6 +2,7 @@
 
 The objective of this project is to create a Custom ChatGPT with LangChain.
 
+
 # Create the virtual environment:
 
 ```
@@ -24,6 +25,14 @@ source venv/bin/activate
 ```
 pip install -r requirements.txt
 ```
+
+
+# Set the .env file
+
+1. Copy or rename the `.env_example` to `.env`
+2. Get the ChatGPT API key from [their website](https://platform.openai.com/api-keys)
+3. Paste it in the `.env` file
+
 
 # Run the Jupyter Notebook
 
