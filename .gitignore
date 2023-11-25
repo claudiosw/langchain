@@ -4,3 +4,5 @@ venv
 .env
 
 .coverage
+**/chatbot_history.json
+**/.ipynb_checkpoints/
