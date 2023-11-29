@@ -34,17 +34,16 @@ pip install -r requirements.txt
 3. Paste it in the `.env` file
 
 
-# Run the Jupyter Notebook
+# Run Streamlit
 
 ```
-jupyter notebook
+streamlit run .\chatgpt_with_private_files_and_streamlit.py
 ```
 
 
 # Use the Custom ChatGPT with private files
 
-1. Open the file `chatgpt_with_private_files.ipynb` inside of the Jupyter Notebook
-2. In the Menu, click in Run -> Run All Cells
+streamlit run .\chatgpt_with_private_files_and_streamlit.py
 
 
 ## Uploading a document
