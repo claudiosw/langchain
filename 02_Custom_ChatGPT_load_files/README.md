@@ -33,17 +33,17 @@ pip install -r requirements.txt
 2. Get the ChatGPT API key from [their website](https://platform.openai.com/api-keys)
 3. Paste it in the `.env` file
 
-
-# Run Streamlit
+# Run the Jupyter Notebook
 
 ```
-streamlit run .\chatgpt_with_private_files_and_streamlit.py
+jupyter notebook
 ```
 
 
 # Use the Custom ChatGPT with private files
 
-streamlit run .\chatgpt_with_private_files_and_streamlit.py
+1. Open the file `chatgpt_with_private_files.ipynb` inside of the Jupyter Notebook
+2. In the Menu, click in Run -> Run All Cells
 
 
 ## Uploading a document
