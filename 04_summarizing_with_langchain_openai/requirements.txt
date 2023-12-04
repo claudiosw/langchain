@@ -1,0 +1,8 @@
+openai==0.28.1
+langchain
+python-dotenv
+tiktoken
+streamlit
+streamlit-chat
+docx2txt
+pypdf
