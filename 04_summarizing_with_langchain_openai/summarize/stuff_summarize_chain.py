@@ -4,7 +4,7 @@ from langchain.docstore.document import Document
 from langchain_base import llm
 
 
-def stuff_summarize_chain(text):
+def get_stuff_summarize_chain(text):
     docs = [Document(page_content=text)]
 
 
