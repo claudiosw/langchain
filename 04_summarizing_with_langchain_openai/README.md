@@ -34,3 +34,8 @@ pip install -r requirements.txt
 3. Paste it in the `.env` file
 
 
+# Run Streamlit
+
+```
+streamlit run main.py
+```
