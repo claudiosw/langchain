@@ -120,7 +120,7 @@ if __name__ == "__main__":
                 delete_pinecone_index()
                 chunks = chunk_data(data)
                 index_name = 'chatgpt'
-                vector_store = vector_store = insert_or_fetch_embeddings(index_name, chunks)
+                vector_store = insert_or_fetch_embeddings(index_name, chunks)
 
                 # saving the vector store in the streamlit session state (to be persistent between reruns)
                 st.session_state.vs = vector_store
